@@ -102,6 +102,9 @@ div{
     float:right;
     margin-left: 150px;
     font-size: 40px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
 }
 
 .texto{
@@ -254,3 +257,20 @@ p{
     align-items:flex-end;
 
 }
+/********************************************************************************/
+
+ 
+ 
+ @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    50%{
+        opacity:.5;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+  
+ 
