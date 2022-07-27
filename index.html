@@ -6,49 +6,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LIFT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!--CSS DE BOOTSTRAM-->
+    
     <!--WOW-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <section class="container-grid">
+    <section >
         <!--PADRE-->
-        <section id="GridHeader">
-            <header>
-                <h1><img src="img/logo.png " alt="LIFT" , width="140" , height="100"></h1>
-
-                <nav>
-                    <ul class="nav-grid">
-                        <li><a href="page/colecciones.html">COLECCIONES</a></li>
-                        <li><a href="page/uneteanosotros.html">UNETE A NOSOTROS</a></li>
-                        <li><a href="page/liftjournal.html">LIFT JOURNAL</a></li>
-                        <li><a href="page/contacto.html">CONTACTO</a></li>
-                    </ul>
-                </nav>
-            </header>
+        <!--<section id="GridHeader"> -->
+        <section>
+          <header class="site-header">
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <a class="navbar-brand" href="#">
+                      <img class="img-fluid" src="img/logo.png " alt="LIFT" > 
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="page/colecciones.html">Colecciones</a>
+                                
+                            </li>
+                            <li class="nav-item">
+                                
+                                <a class="nav-link" href="page/uneteanosotros.html">Unete a nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="liftjournal.html">Lift Journal</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="page/contacto.html">Contacto</a>
+                          </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+            <img class="img-fluid" src="img/ppal.jpg " alt="LIFT" >
         </section>
-        <img src="img/ppal.jpg " alt="LIFT" , width="1900" , height="700">
-
-        <section id="GridSlides">
+        <!--<img src="img/ppal.jpg " alt="LIFT" , width="1880" , height="700">-->
+        <!--<section id="GridSlides"></section> -->
+        <section class="container-fluid">
             <div>
-                <img src="img/activewear-5015618138056609fc70839ea57c14ae_750x.jpg " alt="LIFT" , width="920" ,
-                    height="500">
-                <img src="img/imgsub.jpg" alt="LIFT" , width="980" , height="500">
+                <img class="img-fluid" src="img/activewear-5015618138056609fc70839ea57c14ae_750x.jpg " alt="LIFT" >
+                <img class="img-fluid" src="img/imgsub.jpg" alt="LIFT" >
             </div>
+        </section>
+        <section class="container-fluid">
             <div>
-                <img class="imagen" src="img/journey.jpg" alt="LIFT" , width="920" , height="500">
+                <img class="img-fluid"  src="img/journey.jpg" alt="LIFT">
                 <h2 class="viaje">Sigue nuestro viaje</h2>
                 <!--Esto se agrega en un futuro-->
                 <!--<p>Follow us on instagram to keep up with latest product news, updates and more!</p>
             <button type="button">Boton</button>-->
 
             </div>
-
+        </section>
+        <section class="container-fluid">   
             <div>
 
-                <h3>LIFT,venta de ropa deportiva y comunidad Fitness.</h3>
+                <h3 class="fw-bold">LIFT,venta de ropa deportiva y comunidad Fitness.</h3>
                 <div class="animate__animated animate__backInLeft">
                     <p>No son nuestras metas las que nos unen, sino las cosas que hacemos para lograrlas. Porque aunque
                         nuestros campos de entrenamiento y objetivos finales puedan ser diferentes, el sudor es nuestro
@@ -57,66 +83,32 @@
                         con la que sudarás, el contenido en el que encontrarás inspiración y la comunidad en la que te
                         convertirás en lo mejor.</p>
                 </div>
-                <img class="slide" src="img/slide.jpg" alt="LIFT" , width="920" , height="500">
+                <img class="img-fluid"  src="img/slide.jpg" alt="LIFT" >
             </div>
         </section>
-        <!-- <section>
-                <article>
-                    <table border="1" cellpadding="2" cellspacing="2">
-                        <tr>
-                            
-                            <th>Nombre</th>
-                            <th>Informacion Técnica</th>
-                            <th>Características</th>
-                            <th>Precio</th>
-                            <th>Beneficios</th>
-                            
-                        </tr>
-                        <tr>
-                            <td>Remera LIFT</td>
-                            <td><ul><li>Tela Lycra Slinky</li><li>Slim fit</li><li>Secado rápido</li></ul></td>
-                            <td>Disponibles en talle S,M,L,XL.</td>
-                            <td>$2000</td>
-                            <td><ol><li>Llevando 2 remeras,en la tercera obtenes un 30% de descuento</li><li>Llevando 3 remeras,en la cuarta obtenes un 50% de descuento</li><li>Llevando 4 remeras,en la quinta obtenes un 70% de descuento</li></ol></td>
-                        </tr>
-                        <tr>
-                            <td>Short LIFT</td>
-                            <td><ul><li>Tela Lycra Slinky</li><li>Slim fit</li><li>Secado rápido</li></ul></td>
-                            <td>Disponibles en talle S,M,L,XL</td>
-                            <td>$2500</td>
-                            <td><ol><li>Llevando 2 shorts,en el tercero obtenes un 30% de descuento</li><li>Llevando 3 shorts,en el cuarto obtenes un 50% de descuento</li><li>Llevando 4 shorts,en el quinto obtenes un 70% de descuento</li></ol></td>
-                        </tr>
-                        <tr>
-                            <td>Musculosa LIFT</td>
-                            <td><ul><li>Tela Lycra Slinky</li><li>Slim fit</li><li>Secado rápido</li></ul></td>
-                            <td>Disponibles en talle S,M,L,XL.</td>
-                            <td>$2000</td>
-                            <td>><ol><li>Llevando 2 remeras,en la tercera obtenes un 30% de descuento</li><li>Llevando 3 remeras,en la cuarta obtenes un 50% de descuento</li><li>Llevando 4 remeras,en la quinta obtenes un 70% de descuento</li></ol></td>
-                        </tr>
-        
-                    </table>
-                </article>
-            </section>
-            <section>
-                <h1>Video Motivacional</h1>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/6UtiyFzj6rU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+
+    </section>
+    <!--<section id=gridFooter> --> 
+    <section class="container-fluid">
+      <footer class="site-footer bg-dark text-white text-center pt-4">
+
+        <div class="iconos">
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-discord"></i></a>
+        </div>
+    </footer>
     </section>
 
-
+    
     <script src="https://cdn.boomcdn.com/libs/wow-js/1.3.0/wow.min.js"></script>
     <script>
         new WOW().init();
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 
 </body>
-<section id=gridFooter>
-    <footer>
 
-        <h1><img src="img/logo.png " alt="LIFT" , width="120" , height="100" ,></h1>
-
-
-    </footer>
-</section>
 
 </html>

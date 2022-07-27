@@ -1,15 +1,17 @@
+
+
 img{
     size-adjust: 50px;
 }
-nav{
-    float:right;
-}
+
+
+
 
 /*grid por areas index */
 .container-grid{
     display: grid;
     grid-template-columns:1fr ;
-    grid-template-rows: 20% auto auto ;
+    /*grid-template-rows: 20% auto auto ;*/
     grid-template-areas:
     "header " 
     " body "
@@ -19,11 +21,16 @@ nav{
 header{
     grid-area:header ;
     display:flex;
-    background-color:#000;
-    color: #ffffffb9;
-    font-size: 18px;
-    font-weight: 600;
+    /*background-color:#000;*/
+    /*color: #ffffffb9;
+    /*font-size: 18px;*/
+    /*font-weight: 600;*/
+    
 }
+.nav-link{
+    color:#fff;
+}
+
 
 body {
     grid-area:body ;
@@ -118,6 +125,7 @@ div{
     margin-left: 52px;
 
 }
+
 h3{
     text-align:center;
     margin-left: 50px;
@@ -273,4 +281,22 @@ p{
     }
  }
   
- 
+ .iconos a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 25px;
+    text-align: center;
+    text:center;
+
+ }
+
+ .iconos a i:hover {
+    color:darkgray;
+    transform: scale(1.1);
+    transition: ease-in-out .1s;
+}
+
+.navbar-brand img{
+    max-height: 200px;
+}
