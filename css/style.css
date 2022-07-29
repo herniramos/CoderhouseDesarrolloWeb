@@ -1,114 +1,9 @@
 
-
-img{
-    size-adjust: 50px;
-}
-
-
-
-
-/*grid por areas index */
-.container-grid{
-    display: grid;
-    grid-template-columns:1fr ;
-    /*grid-template-rows: 20% auto auto ;*/
-    grid-template-areas:
-    "header " 
-    " body "
-    " footer ";
-}
-
-header{
-    grid-area:header ;
-    display:flex;
-    /*background-color:#000;*/
-    /*color: #ffffffb9;
-    /*font-size: 18px;*/
-    /*font-weight: 600;*/
-    
-}
-.nav-link{
-    color:#fff;
-}
-
-
-body {
-    grid-area:body ;
-    background-color: #fff;
-    color: #000;
-    font-family:Arial;
-    font-size: 15px;
-
-}
-footer{
-    grid-area:footer; 
-    background-color: #000;
-}
-
-@media(max-width:800px){ /*responsive para tablet*/
-    .container-grid{
-        grid-template-columns:1fr ;
-        grid-template-rows: 5% auto auto ;
-        grid-template-areas:
-        "header  " 
-        " body "
-        " footer ";
-    }
-
-
-}
-
-@media(max-width:400px){
-
-    
-}
-ul {
-    list-style-type: none;
-    text-align:center;
-    text-size-adjust: 1;
-    margin-left:800px;
-  }
-
- 
-li {
-            
-            border: #D7C8B6 2px solid;
-            display:inline-block;
-            margin-right: 50px;
-            margin-top:30px;
-            margin-bottom: 0px;
-  }
-
-a{
-    text-decoration:none;
-    font-family:Arial;
-    color:white;
-    
-}
-
-
-p, span, a, h1, h2, h3 {
-    font-family: arial;
-}
-
-footer{
-    background-color: #000;
-}
-
-
-
-div{
-    display: flex;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
 .viaje{
-    text-transform: uppercase;
     color: #212529;
-    font-weight: 600;
-    float:right;
-    margin-left: 150px;
-    font-size: 40px;
+    margin-left: 50px;
+    font-size: 30px;
+    margin-top: 20px;
     animation-duration: 2s;
     animation-name: aparecer;
     animation-iteration-count: infinite;
@@ -125,13 +20,7 @@ div{
     margin-left: 52px;
 
 }
-
-h3{
-    text-align:center;
-    margin-left: 50px;
-    font-size:20px;
-}
-
+/*
 p{
     vertical-align: text-bottom;
     margin-top:170px;
@@ -139,26 +28,13 @@ p{
     padding-left: 50px;
 }
 
-
+*/
 
 .title{
     text-align: center;
     margin-left:800px;
 }
 
-.imgcolec1{
-    margin-left:10px;
-    margin-right:128px;
-    margin-bottom: 50px;
-
-}
-
-/* .imgcolec{
-    margin-left: 20px;
-    margin-right:128px;
-    margin-bottom: 50px;
-}
-*/
 .titleJournal{
     text-align: center;
     margin-left:800px;
@@ -183,17 +59,7 @@ p{
     padding-bottom: 1px;
 }
 
-.parrafo{
-    text-align: center;
-    margin-left:10px;
-    display: inline-block;
-    font-family: arial;
-    margin-left: 300px;
-    margin-top:-148px;
-    margin-bottom: 80px;
-
-}
-
+/*********************************UNETE A NOSOTROS*******************************************************/
 .imgun{
     margin-left: 110px;
     margin-right:128px;
@@ -238,37 +104,9 @@ p{
     margin-bottom: 80px;
 }
 
-.tituloC{
-    text-align: center;
-    margin-left:790px;
-}
 
 
-
-
-.parrafoLIFT{
-    text-align:center;
-    display:block;
-}
-
-/*grid aplicado a coleccion.html- */
-#coleccion{ 
- display: grid;
- grid-template-columns: repeat(4,1fr);   
-
-}
-
-.nav-grid{
-    list-style: none;
-    display: flex;
-    flex-direction:row;
-    align-items:flex-end;
-
-}
-/********************************************************************************/
-
- 
- 
+/****************************INDEX**********************************/ 
  @keyframes aparecer {
     0% {
       opacity: 0;
@@ -286,8 +124,6 @@ p{
     color: white;
     margin: 10px;
     font-size: 25px;
-    text-align: center;
-    text:center;
 
  }
 
@@ -298,5 +134,50 @@ p{
 }
 
 .navbar-brand img{
-    max-height: 200px;
+    max-height: 70px;
+
 }
+.section1 img{
+    width: 1000px;
+}
+
+.ppal img{
+    height: 900px;
+    width: 2500px;
+}
+.wear img{
+    height: 588px;
+}
+.journey img{
+    height: 588px;
+}
+.slide img{
+    height: 590px;
+}
+.container-fluid div{
+    display: flex;
+}
+
+
+/****************************Coleccion**********************************/ 
+/*Es responsive,faltaria arreglar el boton de comprar en desktop*/
+.producto img{
+    max-width: 370px;
+    max-height: 600px;
+    margin-top: 10px;
+    margin-bottom:40px ;
+    margin-right: auto;
+}
+.btn{
+    max-height: 45px;
+
+}
+
+
+.animate__animated{
+    vertical-align: text-bottom;
+    margin-top:170px;
+    margin-right: 20px;
+    padding-left: 50px;
+}
+
