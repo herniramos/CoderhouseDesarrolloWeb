@@ -35,12 +35,13 @@ p{
     margin-left:800px;
 }
 
+/*
 .titleJournal{
     text-align: center;
     margin-left:800px;
     display: inline-block;
 }
-
+*/
 .parrafo{
     text-align:center;
     display:block;
@@ -59,7 +60,7 @@ p{
     padding-bottom: 1px;
 }
 
-/*********************************UNETE A NOSOTROS*******************************************************/
+/*********************************UNETE A NOSOTROS*********************************/
 .imgun{
     margin-left: 110px;
     margin-right:128px;
@@ -146,21 +147,29 @@ p{
     width: 2500px;
 }
 .wear img{
-    height: 588px;
+    height: 657px;
 }
 .journey img{
-    height: 588px;
+    height: 657px;
 }
 .slide img{
-    height: 590px;
+    height: 657px;
 }
 .container-fluid div{
     display: flex;
 }
-
-
+.button{
+    max-height: 50px;
+    width: 200px;
+    color: white;
+    background-color: #212529;
+    border-color: #212529;
+    margin-top: 100px;
+    
+}
+btn
 /****************************Coleccion**********************************/ 
-/*Es responsive,faltaria arreglar el boton de comprar en desktop*/
+
 .producto img{
     max-width: 370px;
     max-height: 600px;
@@ -170,6 +179,9 @@ p{
 }
 .btn{
     max-height: 45px;
+    color: white;
+    background-color: #212529;
+    border-color: #212529;
 
 }
 
@@ -179,5 +191,13 @@ p{
     margin-top:170px;
     margin-right: 20px;
     padding-left: 50px;
+    width: 100%;
 }
-
+.h1colect{
+    text-align: center;
+}
+/*******************LIFTJOURNAL*********************************/
+.ppaljournal{
+    height: 500px;
+    width: 2000px;
+}
