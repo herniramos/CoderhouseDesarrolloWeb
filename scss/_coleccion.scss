@@ -1,0 +1,28 @@
+@import "variables";
+
+.producto img{
+    max-width: 370px;
+    max-height: 600px;
+    margin-top: 10px;
+    margin-bottom:40px ;
+    margin-right: auto;
+}
+.btn{
+    max-height: 45px;
+    color: $color-letra;
+    background-color:$color-fondo;
+    border-color:$color-borde;
+
+    &:hover{
+        background-color:darkgray;
+        border-color: $color-hover;
+    }
+
+}
+
+
+.h1colect{
+    text-align: center;
+}
+
+

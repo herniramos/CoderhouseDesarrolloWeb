@@ -1,14 +1,145 @@
+/***INDEX***/
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: .5; }
+  100% {
+    opacity: 1; } }
 
-.viaje{
-    color: #212529;
-    margin-left: 50px;
-    font-size: 30px;
-    margin-top: 20px;
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: infinite;
-}
+.iconos a {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  font-size: 25px; }
 
+.iconos a i:hover {
+  color: darkgray;
+  transform: scale(1.1);
+  transition: ease-in-out .1s; }
+
+.navbar-brand img {
+  max-height: 70px; }
+
+.section1 img {
+  width: 1000px; }
+
+.ppal img {
+  height: 900px;
+  width: 2500px; }
+
+.wear img {
+  height: 657px; }
+
+.journey img {
+  height: 657px; }
+
+.slide img {
+  height: 657px; }
+
+.container-fluid div {
+  display: flex; }
+
+.button {
+  max-height: 50px;
+  width: 200px;
+  color: white;
+  background-color: #212529;
+  border-color: #212529;
+  margin-top: 100px; }
+
+.viaje {
+  color: #212529;
+  margin-left: 50px;
+  font-size: 30px;
+  margin-top: 20px;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite; }
+
+.animate__animated {
+  vertical-align: text-bottom;
+  margin-top: 170px;
+  margin-right: 20px;
+  padding-left: 50px;
+  width: 100%; }
+
+/***COLECCION***/
+/*Colores*/
+.producto img {
+  max-width: 370px;
+  max-height: 600px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-right: auto; }
+
+.btn {
+  max-height: 45px;
+  color: white;
+  background-color: black;
+  border-color: black; }
+  .btn:hover {
+    background-color: darkgray;
+    border-color: gray; }
+
+.h1colect {
+  text-align: center; }
+
+/***Unete a nosotros***/
+.imgun {
+  margin-left: 110px;
+  margin-right: 128px;
+  margin-bottom: 50px; }
+
+.pgun1 {
+  margin-top: -45px;
+  margin-left: 220px; }
+
+.pgun2 {
+  margin-top: -45px;
+  margin-left: 230px;
+  margin-right: -200px; }
+
+.pun {
+  display: inline-block;
+  text-align: center;
+  font-family: arial;
+  margin-left: -300px;
+  margin-top: 10px;
+  margin-bottom: 80px; }
+
+.pun1 {
+  display: inline-block;
+  text-align: center;
+  font-family: arial;
+  margin-left: -10;
+  margin-top: 10px;
+  margin-bottom: 80px;
+  margin-right: 60px; }
+
+.pun2 {
+  display: inline-block;
+  text-align: center;
+  font-family: arial;
+  margin-top: 10px;
+  margin-bottom: 80px; }
+
+.parrafo {
+  text-align: center;
+  display: block; }
+
+.imgunete {
+  margin-top: 20px;
+  margin-left: 100px; }
+
+.titulo {
+  text-align: center;
+  margin-left: 650px;
+  display: inline-block;
+  font-family: arial;
+  padding-bottom: 1px; }
+
+/*
 .texto{
     display: block;
     margin-block-start: 1em;
@@ -20,20 +151,18 @@
     margin-left: 52px;
 
 }
-/*
-p{
-    vertical-align: text-bottom;
-    margin-top:170px;
-    margin-right: 20px;
-    padding-left: 50px;
-}
 
-*/
 
 .title{
     text-align: center;
     margin-left:800px;
 }
+
+*/
+/***LIFT JOURNAL***/
+.ppaljournal {
+  height: 500px;
+  width: 2000px; }
 
 /*
 .titleJournal{
@@ -42,162 +171,4 @@ p{
     display: inline-block;
 }
 */
-.parrafo{
-    text-align:center;
-    display:block;
-}
-
-.imgunete{
-    margin-top: 20px;
-    margin-left: 100px;
-}
-
-.titulo{
-    text-align: center;
-    margin-left:650px;
-    display: inline-block;
-    font-family: arial;
-    padding-bottom: 1px;
-}
-
-/*********************************UNETE A NOSOTROS*********************************/
-.imgun{
-    margin-left: 110px;
-    margin-right:128px;
-    margin-bottom: 50px;
-}
-
-.pgun1{
-    margin-top:-45px;
-    margin-left: 220px;
-
-}
-.pgun2{
-    margin-top:-45px;
-    margin-left: 230px;
-    margin-right: -200px;
-
-}
-.pun{
-    display: inline-block;
-    text-align: center;
-    font-family: arial;
-    margin-left:-300px;
-    margin-top:10px;
-    margin-bottom: 80px;
-}
-
-.pun1{
-    display: inline-block;
-    text-align: center;
-    font-family: arial;
-    margin-left: -10;
-    margin-top:10px;
-    margin-bottom: 80px;
-    margin-right: 60px;
-}
-
-.pun2{
-    display: inline-block;
-    text-align: center;
-    font-family: arial;
-    margin-top:10px;
-    margin-bottom: 80px;
-}
-
-
-
-/****************************INDEX**********************************/ 
- @keyframes aparecer {
-    0% {
-      opacity: 0;
-    }
-    50%{
-        opacity:.5;
-    }
-    100% {
-      opacity: 1;
-    }
- }
-  
- .iconos a {
-    text-decoration: none;
-    color: white;
-    margin: 10px;
-    font-size: 25px;
-
- }
-
- .iconos a i:hover {
-    color:darkgray;
-    transform: scale(1.1);
-    transition: ease-in-out .1s;
-}
-
-.navbar-brand img{
-    max-height: 70px;
-
-}
-.section1 img{
-    width: 1000px;
-}
-
-.ppal img{
-    height: 900px;
-    width: 2500px;
-}
-.wear img{
-    height: 657px;
-}
-.journey img{
-    height: 657px;
-}
-.slide img{
-    height: 657px;
-}
-.container-fluid div{
-    display: flex;
-}
-.button{
-    max-height: 50px;
-    width: 200px;
-    color: white;
-    background-color: #212529;
-    border-color: #212529;
-    margin-top: 100px;
-    
-}
-btn
-/****************************Coleccion**********************************/ 
-
-.producto img{
-    max-width: 370px;
-    max-height: 600px;
-    margin-top: 10px;
-    margin-bottom:40px ;
-    margin-right: auto;
-}
-.btn{
-    max-height: 45px;
-    color: white;
-    background-color: #212529;
-    border-color: #212529;
-
-}
-
-
-.animate__animated{
-    vertical-align: text-bottom;
-    margin-top:170px;
-    margin-right: 20px;
-    padding-left: 50px;
-    width: 100%;
-}
-.h1colect{
-    text-align: center;
-}
-/*******************LIFTJOURNAL*********************************/
-.ppaljournal{
-    height: 500px;
-    width: 2000px;
-}
+/***CONTACTO***/

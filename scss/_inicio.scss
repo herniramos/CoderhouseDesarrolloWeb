@@ -1,0 +1,77 @@
+@keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    50%{
+        opacity:.5;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+  
+ .iconos a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 25px;
+
+ }
+
+ .iconos a i:hover {
+    color:darkgray;
+    transform: scale(1.1);
+    transition: ease-in-out .1s;
+}
+
+.navbar-brand img{
+    max-height: 70px;
+
+}
+.section1 img{
+    width: 1000px;
+}
+
+.ppal img{
+    height: 900px;
+    width: 2500px;
+}
+.wear img{
+    height: 657px;
+}
+.journey img{
+    height: 657px;
+}
+.slide img{
+    height: 657px;
+}
+.container-fluid div{
+    display: flex;
+}
+.button{
+    max-height: 50px;
+    width: 200px;
+    color: white;
+    background-color: #212529;
+    border-color: #212529;
+    margin-top: 100px;
+    
+}
+
+.viaje{
+    color: #212529;
+    margin-left: 50px;
+    font-size: 30px;
+    margin-top: 20px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+
+.animate__animated{
+    vertical-align: text-bottom;
+    margin-top:170px;
+    margin-right: 20px;
+    padding-left: 50px;
+    width: 100%;
+}
