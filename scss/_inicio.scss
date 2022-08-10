@@ -9,19 +9,27 @@
       opacity: 1;
     }
  }
-  
- .iconos a {
-    text-decoration: none;
-    color: white;
-    margin: 10px;
-    font-size: 25px;
-
- }
 
  .iconos a i:hover {
     color:darkgray;
     transform: scale(1.1);
     transition: ease-in-out .1s;
+}
+
+/*MAP*/
+$estilos:(
+    tdecoration:none,
+    colorr:white,
+    margen:10px,
+    tamfuente:25px
+);
+
+/*GET-MAP*/
+.iconos a{
+    text-decoration: map-get($estilos, tdecoration );
+    color: map-get($estilos ,colorr );
+    margin:map-get($estilos,margen);
+    font-size:map-get($estilos,tamfuente);
 }
 
 .navbar-brand img{
@@ -33,21 +41,35 @@
 }
 
 .ppal img{
-    height: 900px;
-    width: 2500px;
+    height: 500px;   
+    width: 500px;
 }
-.wear img{
-    height: 657px;
-}
-.journey img{
-    height: 657px;
+
+
+
+/*MIXIN*/
+@mixin tamano($altura){
+    height: $altura;
 }
 .slide img{
-    height: 657px;
+    @include tamano(700px)
 }
+
+.wear img{
+    @include tamano(657px);
+}
+.journey img{
+    @include tamano(657px)
+}
+/*
 .container-fluid div{
     display: flex;
 }
+
+
+
+
+/*
 .button{
     max-height: 50px;
     width: 200px;
@@ -57,7 +79,7 @@
     margin-top: 100px;
     
 }
-
+*/
 .viaje{
     color: #212529;
     margin-left: 50px;
@@ -70,8 +92,36 @@
 
 .animate__animated{
     vertical-align: text-bottom;
-    margin-top:170px;
+    margin-top:50px; //170px
     margin-right: 20px;
     padding-left: 50px;
     width: 100%;
 }
+
+
+
+.hijo img {
+
+width:100%;
+
+margin:0auto;
+
+padding:0auto;
+
+    }
+
+    .hijo-text {
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+    }
+
+    .hijo-text h2 {
+
+font-size:70px;
+
+    }

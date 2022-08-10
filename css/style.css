@@ -7,16 +7,18 @@
   100% {
     opacity: 1; } }
 
+.iconos a i:hover {
+  color: darkgray;
+  transform: scale(1.1);
+  transition: ease-in-out .1s; }
+
+/*MAP*/
+/*GET-MAP*/
 .iconos a {
   text-decoration: none;
   color: white;
   margin: 10px;
   font-size: 25px; }
-
-.iconos a i:hover {
-  color: darkgray;
-  transform: scale(1.1);
-  transition: ease-in-out .1s; }
 
 .navbar-brand img {
   max-height: 70px; }
@@ -25,8 +27,12 @@
   width: 1000px; }
 
 .ppal img {
-  height: 900px;
-  width: 2500px; }
+  height: 500px;
+  width: 500px; }
+
+/*MIXIN*/
+.slide img {
+  height: 700px; }
 
 .wear img {
   height: 657px; }
@@ -34,21 +40,26 @@
 .journey img {
   height: 657px; }
 
-.slide img {
-  height: 657px; }
+/*
+.container-fluid div{
+    display: flex;
+}
 
-.container-fluid div {
-  display: flex; }
 
-.button {
-  max-height: 50px;
-  width: 200px;
-  color: white;
-  background-color: #212529;
-  border-color: #212529;
-  margin-top: 100px; }
 
-.viaje {
+
+/*
+.button{
+    max-height: 50px;
+    width: 200px;
+    color: white;
+    background-color: #212529;
+    border-color: #212529;
+    margin-top: 100px;
+    
+}
+*/
+.viaje, .titulo {
   color: #212529;
   margin-left: 50px;
   font-size: 30px;
@@ -59,10 +70,23 @@
 
 .animate__animated {
   vertical-align: text-bottom;
-  margin-top: 170px;
+  margin-top: 50px;
   margin-right: 20px;
   padding-left: 50px;
   width: 100%; }
+
+.hijo img {
+  width: 100%;
+  margin: 0auto;
+  padding: 0auto; }
+
+.hijo-text {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.hijo-text h2 {
+  font-size: 70px; }
 
 /***COLECCION***/
 /*Colores*/
@@ -83,81 +107,33 @@
     border-color: gray; }
 
 .h1colect {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px; }
 
 /***Unete a nosotros***/
-.imgun {
-  margin-left: 110px;
-  margin-right: 128px;
-  margin-bottom: 50px; }
-
-.pgun1 {
-  margin-top: -45px;
-  margin-left: 220px; }
-
-.pgun2 {
-  margin-top: -45px;
-  margin-left: 230px;
-  margin-right: -200px; }
-
-.pun {
-  display: inline-block;
-  text-align: center;
-  font-family: arial;
-  margin-left: -300px;
-  margin-top: 10px;
-  margin-bottom: 80px; }
-
-.pun1 {
-  display: inline-block;
-  text-align: center;
-  font-family: arial;
-  margin-left: -10;
-  margin-top: 10px;
-  margin-bottom: 80px;
-  margin-right: 60px; }
-
-.pun2 {
-  display: inline-block;
-  text-align: center;
-  font-family: arial;
-  margin-top: 10px;
-  margin-bottom: 80px; }
-
 .parrafo {
   text-align: center;
-  display: block; }
+  /*display:block;*/ }
 
-.imgunete {
-  margin-top: 20px;
-  margin-left: 100px; }
-
+/*EXTENDS*/
 .titulo {
   text-align: center;
-  margin-left: 650px;
-  display: inline-block;
-  font-family: arial;
-  padding-bottom: 1px; }
+  font-size: 30px;
+  margin-left: 0px; }
+
+.h1, h1 {
+  font-size: 30px; }
 
 /*
-.texto{
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-size: 17px;
-    font-family: arial;
-    margin-left: 52px;
-
+.unimg{
+    max-height: 700px;
+    max-width: 400px;
 }
 
-
-.title{
-    text-align: center;
-    margin-left:800px;
+.card{
+    border:0px;
 }
-
 */
 /***LIFT JOURNAL***/
 .ppaljournal {
