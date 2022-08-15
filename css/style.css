@@ -1,4 +1,10 @@
+@charset "UTF-8";
 /***INDEX***/
+/*Colores*/
+/*Tamaño de imagen*/
+/*TAM LETRA*/
+/*MARGIN*/
+/*Alineacion de texto*/
 @keyframes aparecer {
   0% {
     opacity: 0; }
@@ -8,7 +14,7 @@
     opacity: 1; } }
 
 .iconos a i:hover {
-  color: darkgray;
+  color: gray;
   transform: scale(1.1);
   transition: ease-in-out .1s; }
 
@@ -40,27 +46,8 @@
 .journey img {
   height: 657px; }
 
-/*
-.container-fluid div{
-    display: flex;
-}
-
-
-
-
-/*
-.button{
-    max-height: 50px;
-    width: 200px;
-    color: white;
-    background-color: #212529;
-    border-color: #212529;
-    margin-top: 100px;
-    
-}
-*/
 .viaje, .titulo {
-  color: #212529;
+  color: black;
   margin-left: 50px;
   font-size: 30px;
   margin-top: 20px;
@@ -90,6 +77,10 @@
 
 /***COLECCION***/
 /*Colores*/
+/*Tamaño de imagen*/
+/*TAM LETRA*/
+/*MARGIN*/
+/*Alineacion de texto*/
 .producto img {
   max-width: 370px;
   max-height: 600px;
@@ -103,7 +94,7 @@
   background-color: black;
   border-color: black; }
   .btn:hover {
-    background-color: darkgray;
+    background-color: gray;
     border-color: gray; }
 
 .h1colect {
@@ -112,39 +103,58 @@
   margin-top: 30px; }
 
 /***Unete a nosotros***/
+/*Colores*/
+/*Tamaño de imagen*/
+/*TAM LETRA*/
+/*MARGIN*/
+/*Alineacion de texto*/
 .parrafo {
   text-align: center;
-  /*display:block;*/ }
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px; }
 
-/*EXTENDS*/
 .titulo {
   text-align: center;
   font-size: 30px;
   margin-left: 0px; }
 
-.h1, h1 {
-  font-size: 30px; }
+.card img {
+  max-width: 350px; }
 
-/*
-.unimg{
-    max-height: 700px;
-    max-width: 400px;
-}
+.card {
+  max-width: 350px; }
 
-.card{
-    border:0px;
-}
-*/
-/***LIFT JOURNAL***/
-.ppaljournal {
-  height: 500px;
-  width: 2000px; }
+.main {
+  text-align: center;
+  margin-left: 15px; }
 
-/*
-.titleJournal{
-    text-align: center;
-    margin-left:800px;
-    display: inline-block;
-}
-*/
+.unete {
+  text-align: center; }
+
+.card-body {
+  background-color: gray; }
+
+.imgunete {
+  width: 2500x; }
+
 /***CONTACTO***/
+/*Colores*/
+/*Tamaño de imagen*/
+/*TAM LETRA*/
+/*MARGIN*/
+/*Alineacion de texto*/
+.bigicon {
+  font-size: 35px;
+  color: black;
+  margin-top: 20px; }
+
+.contact {
+  background: url(/img/contactt.jpg); }
+
+.btn-primary {
+  margin-top: 20px; }
+
+.contact {
+  position: relative;
+  min-height: 100vh; }

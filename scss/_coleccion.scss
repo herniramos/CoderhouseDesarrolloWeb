@@ -16,7 +16,7 @@
     border-color:$color-borde;
 
     &:hover{
-        background-color:darkgray;
+        background-color:$color-hover;
         border-color: $color-hover;
     }
 
@@ -24,9 +24,9 @@
 
 
 .h1colect{
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    text-align: $text-centrado;
+    margin-bottom:$tam-titulo;
+    margin-top: $tam-titulo;
 }
 
 

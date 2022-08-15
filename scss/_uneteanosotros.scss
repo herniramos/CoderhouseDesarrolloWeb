@@ -1,33 +1,37 @@
-
-
+@import "variables";
 .parrafo{
-    text-align:center;
-    /*display:block;*/
+    text-align:$text-centrado;
+    font-size: 20px;
+    margin-bottom:$tam-margin;
+    margin-top:$tam-margin
 }
 
-
-
-
-
-/*EXTENDS*/
 
 .titulo {
     @extend .viaje;
-    text-align: center;
-    font-size:30px;
+    text-align: $text-centrado;
+    font-size:$tam-titulo;
     margin-left: 0px;
 
 }
-.h1, h1 {
-    font-size:30px;
+.card img{
+    max-width: $tam-card;
 }
-/*
-.unimg{
-    max-height: 700px;
-    max-width: 400px;
+.card {
+    max-width: $tam-card;
 }
 
-.card{
-    border:0px;
+.main{
+    text-align:$text-centrado;
+    margin-left: 15px;
 }
-*/
+.unete{
+    text-align: $text-centrado;
+}
+.card-body{
+    background-color: $color-hover;
+}
+
+.imgunete{
+    width: 2500x;
+}

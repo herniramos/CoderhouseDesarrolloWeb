@@ -1,0 +1,18 @@
+@import "variables";
+.bigicon {
+    font-size: 35px;
+    color:$color-fondo;
+    margin-top: $tam-margin;
+}
+.contact{
+    background: url(/img/contactt.jpg);
+}
+.btn-primary{
+    margin-top: $tam-margin;
+}
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+}
+
