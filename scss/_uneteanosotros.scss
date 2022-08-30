@@ -1,11 +1,11 @@
 @import "variables";
+
 .parrafo{
     text-align:$text-centrado;
     font-size: 20px;
     margin-bottom:$tam-margin;
     margin-top:$tam-margin
 }
-
 
 .titulo {
     @extend .viaje;
@@ -14,20 +14,27 @@
     margin-left: 0px;
 
 }
+
 .card img{
     max-width: $tam-card;
 }
+
 .card {
     max-width: $tam-card;
+    margin-bottom: $tam-margin;
+    margin-left: 7px;
 }
 
 .main{
     text-align:$text-centrado;
     margin-left: 15px;
+    
 }
+
 .unete{
     text-align: $text-centrado;
 }
+
 .card-body{
     background-color: $color-hover;
 }

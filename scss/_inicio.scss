@@ -105,3 +105,32 @@ $estilos:(
         font-size:70px;
 
     }
+
+    .boton{
+        border: 1px solid $color-borde;
+        padding: 15px; 
+        background-color: $color-fondo;
+        color:$color-letra;
+        text-decoration: none; 
+        text-transform: uppercase;
+        font-family: 'Helvetica', sans-serif;
+        border-radius: 50px;
+
+        &:hover{
+            color:$color-hover;
+        }
+
+        }
+
+
+.new-item{
+    text-align: $text-centrado;
+    margin-top: 100px;
+    margin-bottom:$tam-margin;
+}
+
+
+.visita{
+    margin-bottom:$tam-titulo;
+
+}
